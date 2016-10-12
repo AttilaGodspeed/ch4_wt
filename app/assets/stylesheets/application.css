@@ -55,4 +55,7 @@
         font-weight: bold;
         color: maroon;
     }
-    
+    flash {
+        color: red;
+        text-align: center;
+    }
