@@ -8,6 +8,11 @@ class MoviesController < ApplicationController
         @movie = Movie.find(id) # lookup movie by ID
     end
     
+    def new
+       @movie = Movie.new
+       # default: render 'new' template
+    end
+    
     private
 
     def movie_params
