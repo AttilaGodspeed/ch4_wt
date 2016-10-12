@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 20161012012347) do
     t.string   "title"
     t.string   "rating"
     t.text     "description"
-    t.datetime "releae_date"
+    t.datetime "release_date"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

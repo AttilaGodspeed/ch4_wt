@@ -4,7 +4,7 @@ class CreateMovies < ActiveRecord::Migration
       t.string 'title'
       t.string 'rating'
       t.text 'description'
-      t.datetime 'releae_date'
+      t.datetime 'release_date'
       # add creation/mod timestamps
       t.timestamps
     end
