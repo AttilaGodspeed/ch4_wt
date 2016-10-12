@@ -3,4 +3,3 @@
 Covered Sections 4.1-4.10
 
 Did not complete any of the suggested projects in 4.12.
-<tt>rake doc:app</tt>.
